@@ -1,0 +1,184 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Kalibim.master.cs" Inherits="Admin_Kalibim" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <link href="AdminStyle.css" rel="stylesheet" type="text/css" />
+   
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <table background="Images/ustbg.jpg" border="0" cellpadding="0" cellspacing="0" 
+            height="128" width="100%">
+            <tr>
+                <td valign="top">
+                    <img height="61" src="Images/YoneticiPaneli.jpg" width="230" /></td>
+                <td valign="top" align="center">
+                    <br />
+                </td>
+                <td align="right" valign="top">&nbsp;
+                    </td>
+            </tr>
+        </table>
+        <table border="0" cellpadding="0" cellspacing="0" height="458" width="100%">
+            <tr>
+                <td valign="top" width="16%">
+                    <table border="0" cellpadding="0" cellspacing="0" width="188">
+                        <tr>
+                            <td>
+                                <img height="20" src="Images/tblsolUst.jpg" width="25" /></td>
+                            <td background="Images/tblustbg.jpg" width="100%">&nbsp;
+                                </td>
+                            <td>
+                                <img height="20" src="Images/tblsagust.jpg" width="25" /></td>
+                        </tr>
+                        <tr>
+                            <td background="Images/tblsolbg.jpg">&nbsp;
+                          </td>
+                            <td bgcolor="#F7F7F7">
+                                <table border="0" cellpadding="1" cellspacing="1" width="100%">
+                                    <tr>
+                                        <td class="baslik2">
+                                            İşlem Menüsü
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <hr color="#CCCCCC" size="1px" />
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="sollink">
+                                            <asp:Label ID="lblAdmin" runat="server"></asp:Label>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="sollink">
+                                            <asp:HyperLink ID="Link" runat="server" CssClass="sollink" 
+                                                NavigateUrl="Adminler.aspx">• Admin Yönetimi</asp:HyperLink>
+                                        </td>
+                                    </tr>
+                                   
+                                    <tr>
+                                        <td class="sollink">
+                                            <asp:HyperLink ID="lnkHaberler" runat="server" Font-Underline="True" 
+                                                NavigateUrl="Urunler.aspx">•  Ürünler</asp:HyperLink>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="sollink">
+                                            <asp:HyperLink ID="lnkHaberler0" runat="server" Font-Underline="True" 
+                                                NavigateUrl="Hakkimizda.aspx">•  Hakkımızda Sayfası</asp:HyperLink>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="sollink">
+                                            <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="Giris.aspx">•  Giriş Yazısı</asp:HyperLink>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="sollink">
+                                            <asp:HyperLink ID="lnkHaberler1" runat="server" Font-Underline="True" 
+                                                NavigateUrl="iletisim.aspx">•  İletişim Bilgileri</asp:HyperLink>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="sollink">
+                                            <asp:HyperLink ID="ilet" runat="server" NavigateUrl="mesaj.aspx">•  İletişim Mesajları</asp:HyperLink>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="sollink">
+                                            <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="siparis.aspx">•  Siparişler</asp:HyperLink>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="sollink">
+                                            <asp:Button ID="btnCikis" runat="server" onclick="btnCikis_Click" 
+                                                Text="Çıkış" />
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="sollink">
+                                            <asp:ScriptManager ID="ScriptManager1" runat="server">
+                                            </asp:ScriptManager>
+                                        </td>
+                                    </tr>
+                                </table>
+                          </td>
+                            <td background="Images/tblsagbg.jpg">&nbsp;
+                          </td>
+                        </tr>
+                        <tr>
+                            <td align="right">
+                                <img height="20" src="Images/tblsolAlt.jpg" width="25" /></td>
+                            <td align="right" background="Images/tblaltbg.jpg">&nbsp;
+                                </td>
+                            <td>
+                                <img height="20" src="Images/tblsagalt.jpg" width="25" /></td>
+                        </tr>
+                    </table>
+                </td>
+                <td valign="top" width="84%">
+                    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                        <tr>
+                            <td>
+                                <img height="20" src="Images/tblsolUst.jpg" width="25" /></td>
+                            <td background="Images/tblustbg.jpg" width="100%">&nbsp;
+                                </td>
+                            <td>
+                                <img height="20" src="Images/tblsagust.jpg" width="25" /></td>
+                        </tr>
+                        <tr>
+                            <td background="Images/tblsolbg.jpg">&nbsp;
+                                </td>
+                            <td bgcolor="#F7F7F7">
+                                <table border="0" cellpadding="1" cellspacing="1" width="100%">
+                                    <tr>
+                                        <td class="baslik2">
+                                            
+                                            <asp:Label ID="lblSayfaBaslik" runat="server"></asp:Label>
+                                            
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <hr color="#CCCCCC" size="1px" />
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                                            </asp:ContentPlaceHolder>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                            <td background="Images/tblsagbg.jpg">&nbsp;
+                                </td>
+                        </tr>
+                        <tr>
+                            <td align="right">
+                                <img height="20" src="Images/tblsolAlt.jpg" width="25" /></td>
+                            <td align="right" background="Images/tblaltbg.jpg">&nbsp;
+                                </td>
+                            <td>
+                                <img height="20" src="Images/tblsagalt.jpg" width="25" /></td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+        <table border="0" cellpadding="2" cellspacing="2" width="100%">
+            <tr>
+                <td align="center" class="soluk">
+                    ©tarakci</td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

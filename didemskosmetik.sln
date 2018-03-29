@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "didemskosmetik", ".", "{93F1F147-382A-43D0-A836-F102A1A8E94D}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv3.5"
+		Debug.AspNetCompiler.VirtualPath = "/didemskosmetik"
+		Debug.AspNetCompiler.PhysicalPath = "D:\web_projekten\didemskosmetik\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\didemskosmetik\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/didemskosmetik"
+		Release.AspNetCompiler.PhysicalPath = "D:\web_projekten\didemskosmetik\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\didemskosmetik\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "2854"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{93F1F147-382A-43D0-A836-F102A1A8E94D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93F1F147-382A-43D0-A836-F102A1A8E94D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

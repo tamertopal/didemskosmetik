@@ -1,0 +1,112 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta content="Didems Kozmetik, Mersin Kozmetik, MErsin Tek kullanımlık, Mersin Tekstil Ürünleri, Mersin, Mersin Otomasyon, Mersin Temizlik Ürünleri, Tekstil ürünleri, Tırmıl Sanayi, Temizlik ürünleri, Kozmetik Ürünleri" name=Keywords> 
+    <title>::: Didem's Kozmetik :::</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+   <script type="text/javascript" src="js/jquery.min1159.js?ver=1.4.2"></script>
+  
+  <!-- For Cufon -->
+  <script type="text/javascript" src="js/cufon/cufon-yui.js"></script>
+  <script type="text/javascript" src="js/cufon/Comfortaa_400.font.js"></script>
+  <!-- End Cufon -->
+
+  <!-- For Lightbox -->
+  <link rel="stylesheet" type="text/css" href="js/lightbox/css/prettyPhoto.css" />
+  <script type="text/javascript" src="js/lightbox/jquery.prettyPhoto.js"></script>
+  <!-- End Lightbox -->
+
+  <!-- Init JS Theme -->
+  <script type="text/javascript" src="js/theme.js"></script>
+  <!-- End Theme -->
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body class="body">
+    <form id="form1" runat="server">
+   <div id="main">
+
+
+
+  <div id="banner"></div>
+  <div id="menu2">
+              <div id="menu">
+
+          <ul>
+            <li class="init"></li>
+            <li><a href="Default.aspx">Anasayfa</a>
+            </li>
+
+            <li><a href="#">Ürünlerimiz</a>
+              <ul>
+              <li><a href="kozmetik.aspx">Kozmetik Ürünleri</a></li>
+                <li><a href="tekstil.aspx">Tekstil Ürünleri</a></li>
+                <li><a href="tekkullanimlik.aspx">Tek Kullanımlık Ürünler</a></li>
+                             
+                <li><a href="temizlik.aspx">Temizlik Ürünleri</a></li>
+                <li><a href="otomasyon.aspx">Otomasyon</a></li>
+              </ul>
+            </li>
+            <li><a href="hakkimizda.aspx">Hakkımızda</a></li>
+           <li><a href="iletisim.aspx">İletişim</a></li>
+            <li class="end"></li>
+          </ul>
+
+        </div><!--/menu-->
+
+        </div> <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        <div id="edit"><!-- TemplateBeginEditable name="EditRegion1" -->
+			  <div id="hizmetler"></div>
+        	<div id="icerik">
+      			<div id="iceriksolust"></div>
+       		<div id="iceriksagust" class="h1">INFORMATION</div>
+       		<br />
+       		<div id="iceriksol"> 
+ 		      <p><br /><small><a href="http://maps.googlVİZYONUMUZ</div>
+                    <br />
+                    <div id="iceriksol">
+                        <p>
+                            <br />
+                        </p>
+                    </div>
+                    <div id="iceriksag">
+                        <div id="iceriksagust2">
+                        </div>
+                        <div id="iceriksagorta" class="p1">
+                            <p>
+                                <strong>
+                            <center>
+                                Auf dieser Seitfvdse werden wir Sie aktuell über wichtiges und neues im Bereich
+   				      der Fuβbodentechnik informieren. formieren.
+    				  </center></strong> </p>
+    				  <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fuβbodenkonstruktionen zählen zu den Hochbeanspruchten Bauteil in 
+    				    einem Gebäude. Hier kommt dem Bodenbelag und seiner Verarbeitung eine
+    				    besondere Bedeutung zu. Neben einem guten Design, abgestimmt auf die 
+    				    Architektur, gilt hohe Funktionalität und Wirtschaftlichkeit als wesendlicher
+    				    Bestandteile für ihre Entscheidung. Gleichzeitig ist die Beurteilung der 
+    				    vorhandenen Lastverteilungsschicht (Estriche) von besondere Bedeutung, da
+    				    diese eine maβgebliche Voraussetzung zum Gelingen einer mangelfreien
+    				    Leistung ist. Besonders wichtig ist Beurteilung von alten und oder problematischen
+    				    Untergründen bezogen auf die zu erwartende Nutzung. Nur Architekten, Planer
+    				    und erfahrene Fachhandwerker gemeinsam, sind Garant für eine langlebige,
+    				    wie auch ästhetische gelungene Ausführung. </p>
+                        
+                         <p class="ortabaslik">Unsere Leistung sorgt für den richtigen Auftritt!
+<br/>
+<br/>
+Vorschau: Umweltschutz im Fuβbodenbau? </div>
+            	<div id="iceriksagalt"></div>
+         
+			</div><!-- TemplateEndEditable -->   
+  </div>
+        </asp:ContentPlaceHolder>
+    </div>
+   <div id="footer"><span class="altlink"><a href="Default.aspx">ANASAYFA</a>| <a href="tekkulanimlik.aspx">ÜRÜNLERİMİZ</a> |  <a href="hakkimizda.aspx">HAKKIMIZDA</a> | <a href="iletisim.aspx">İLETİŞİM</a></span></div>      
+    </form>
+</body>
+</html>
